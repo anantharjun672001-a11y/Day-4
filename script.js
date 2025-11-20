@@ -129,9 +129,16 @@ console.log(block);
 // LOOPING
 //while
 
-let count=5;
+/* let count=5;
 while(count<10){
     console.log("Count is:"+count);
     count++;
 }
+ */
 
+// do while
+let count=15;
+do{
+    console.log("Count is:"+count);
+    count++;
+}while(count<10);
