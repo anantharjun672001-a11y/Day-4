@@ -25,7 +25,37 @@ setTimeout(function(){
 const Multiply =(a,b) =>a*b
 console.log(Multiply(3,5)) */
 
-//4.IIFE Function
+/* //4.IIFE Function
 (function (){
     console.log("This Function runs immediately");
 })();
+ */
+
+//1.1 Function loop array if push in normal function
+
+/* var res=[];
+function odd(arr) {
+    for(let i=0;i<arr.length;i++){
+        if(arr[i] %2 !==0)
+        {
+            res.push(arr[i])
+        }
+    }
+    return res
+}
+console.log(odd([1,2,3,4,5,6,7,8])) */
+
+
+//2.1 Function loop array if push in anoynoums function
+
+var res=[];
+const odd = function(arr){
+    for(let i=0;i<arr.length;i++){
+        if(arr[i] %2 !==0)
+        {
+            res.push(arr[i])
+        }
+    }
+    return res
+}
+console.log(odd([1,2,3,4,5,6,7,8]))
