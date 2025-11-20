@@ -102,9 +102,9 @@ var a=10;
 //     console.log("Hello world")
 // }
 
-// Scooping
+// Scoping
 
-var global= "I am global";
+/* var global= "I am global";
 function myfunc(){
     var local="I am local";
     console.log(global)
@@ -114,6 +114,15 @@ function myfunc(){
 myfunc()
 console.log(global)
 console.log(local);
-;
+; */
+
+//block scope
+
+if(true){
+    const block="I am Block Scope"
+    console.log(block);
+    
+}
+console.log(block);
 
 
