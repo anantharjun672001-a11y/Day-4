@@ -104,3 +104,13 @@ var a=10;
 
 // Scooping
 
+var global= "I am global";
+function myfunc(){
+    var local="I am local";
+    console.log(global)
+    console.log(local);
+    
+}
+myfunc()
+
+
