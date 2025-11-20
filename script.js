@@ -119,7 +119,7 @@ console.log(local);
 //block scope
 
 if(true){
-    const block="I am Block Scope"
+    var block="I am Block Scope"
     console.log(block);
     
 }
