@@ -118,11 +118,20 @@ console.log(local);
 
 //block scope
 
-if(true){
+/* if(true){
     var block="I am Block Scope"
     console.log(block);
     
 }
 console.log(block);
+ */
 
+// LOOPING
+//while
+
+let count=5;
+while(count<10){
+    console.log("Count is:"+count);
+    count++;
+}
 
