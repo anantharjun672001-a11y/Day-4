@@ -76,7 +76,7 @@ console.log(odd([1,2,3,4,5,6,7,8])) */
 
 //4.1 Arrow function
 
-var res=[];
+/* var res=[];
 const odd = (arr)=>{
     for(let i=0;i<arr.length;i++){
         if(arr[i] %2 !==0)
@@ -87,4 +87,20 @@ const odd = (arr)=>{
     return res
 }
 console.log(odd([1,2,3,4,5,6,7,8]))
+ */
+
+// Hoisting
+// variable hoisting
+/* console.log(a)
+var a=10;
+ */
+
+// function hoisting
+
+// display()
+// function display(){
+//     console.log("Hello world")
+// }
+
+// Scooping
 
