@@ -62,7 +62,7 @@ console.log(odd([1,2,3,4,5,6,7,8])) */
 
 //3.1 IIFE
 
-var res=[];
+/* var res=[];
 (function(arr){
     for(let i=0;i<arr.length;i++){
         if(arr[i] %2 !==0)
@@ -72,5 +72,19 @@ var res=[];
     }
     console.log(res);
     
-})([1,2,3,4,5,6,7,8])
+})([1,2,3,4,5,6,7,8]) */
+
+//4.1 Arrow function
+
+var res=[];
+var odd = (arr)=>{
+    for(let i=0;i<arr.length;i++){
+        if(arr[i] %2 !==0)
+        {
+            res.push(arr[i])
+        }
+    }
+    return res
+}
+console.log(odd([1,2,3,4,5,6,7,8]))
 
