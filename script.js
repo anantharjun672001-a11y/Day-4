@@ -112,5 +112,8 @@ function myfunc(){
     
 }
 myfunc()
+console.log(global)
+console.log(local);
+;
 
 
